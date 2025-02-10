@@ -43,11 +43,6 @@
             key-positions = <16 17 18>;
         };
 
-        ResetBluetooth {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <10 11 12 13 16 17 18 19>;
-        };
-
         Gaming {
             bindings = <&tog 1>;
             key-positions = <22 23 24>;
@@ -94,10 +89,10 @@
 
         Arrows_Media_Umlauts {
             bindings = <
-        &trans              &trans                  &trans  &trans  &trans    &trans          &kp RA(Y)       &trans        &kp RA(P)        &trans
-        &mt LEFT_ALT RA(Q)  &mt LEFT_CONTROL RA(S)  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans              &trans                  &trans  &trans  &trans    &trans          &trans          &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &trans
-                                                    &trans  &mo 4   &trans    &trans          &trans          &trans
+        &bt BT_SEL 0        &bt BT_SEL 1            &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &kp RA(Y)       &trans        &kp RA(P)        &trans
+        &mt LEFT_ALT RA(Q)  &mt LEFT_CONTROL RA(S)  &trans        &trans        &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans              &trans                  &trans        &trans        &trans          &trans          &trans          &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &trans
+                                                    &trans        &mo 4         &trans          &trans          &trans          &trans
             >;
         };
 
