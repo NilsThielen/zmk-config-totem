@@ -53,7 +53,7 @@
         switch_to_mac: switch_to_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&macro_wait_time 200>, <&tog 6>;
+            bindings = <&tog 6>, <&macro_wait_time 200>, <&bt BT_SEL 1>;
 
             label = "SWITCH_TO_MAC";
         };
@@ -61,7 +61,7 @@
         switch_to_windows: switch_to_windows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&macro_wait_time 200>, <&tog 0>;
+            bindings = <&tog 0>, <&macro_wait_time 200>, <&bt BT_SEL 0>;
 
             label = "SWITCH_TO_WINDOWS";
         };
