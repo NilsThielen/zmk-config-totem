@@ -126,10 +126,10 @@
 
         WASD {
             bindings = <
-        &trans              &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &mt LEFT_SHIFT A    &kp A   &kp W   &kp D   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &mt LEFT_CONTROL Z  &trans  &kp S   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans  &trans  &trans    &trans  &trans  &trans
+        &kp NUMBER_1        &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans
+        &mt LEFT_SHIFT A    &kp A         &kp W         &kp D         &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &mt LEFT_CONTROL Z  &trans        &kp S         &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
 
@@ -181,10 +181,10 @@
 
         WASD_MAC {
             bindings = <
-        &trans            &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &mt LEFT_SHIFT A  &kp A   &kp W   &kp D   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &mt LEFT_GUI Z    &trans  &kp S   &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans  &trans  &trans    &trans  &trans  &trans
+        &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &trans  &trans  &trans  &trans  &trans
+        &mt LEFT_SHIFT A  &kp A         &kp W         &kp D         &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &mt LEFT_GUI Z    &trans        &kp S         &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
 
