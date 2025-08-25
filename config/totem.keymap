@@ -39,7 +39,7 @@
         };
 
         Enter {
-            bindings = <&kp TAB>;
+            bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
         };
 
