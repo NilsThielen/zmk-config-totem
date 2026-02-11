@@ -35,12 +35,7 @@
         Tab {
             timeout-ms = <100>;
             key-positions = <12 13 11>;
-            bindings = <&kp TAB>;
-        };
-
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <16 17 18>;
+            bindings = <&kp ESCAPE>;
         };
 
         Gaming {
@@ -130,10 +125,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q           &kp W        &kp E         &kp R        &kp T        &kp Y          &kp U        &kp I      &kp O        &kp P
-         &mt LEFT_ALT A  &mt LCTRL S  &kp D         &mt LSHFT F  &kp G        &kp H          &mt RSHFT J  &kp K      &mt RCTRL L  &mt RIGHT_ALT SEMI
-&kp TAB  &kp Z           &kp X        &kp C         &kp V        &kp B        &kp N          &kp M        &kp COMMA  &kp KP_DOT   &kp SLASH           &kp ENTER
-                                      &kp LEFT_WIN  &mo 3        &kp SPACE    &kp BACKSPACE  &mo 2        &lt 5 DEL
+         &kp Q           &kp W        &kp E         &kp R        &kp T            &kp Y      &kp U        &kp I      &kp O        &kp P
+         &mt LEFT_ALT A  &mt LCTRL S  &kp D         &mt LSHFT F  &kp G            &kp H      &mt RSHFT J  &kp K      &mt RCTRL L  &mt RIGHT_ALT SEMI
+&kp TAB  &kp Z           &kp X        &kp C         &kp V        &kp B            &kp N      &kp M        &kp COMMA  &kp KP_DOT   &kp SLASH           &kp ENTER
+                                      &kp LEFT_WIN  &mo 3        &kp BACKSPACE    &kp SPACE  &mo 2        &lt 5 DEL
             >;
         };
 
