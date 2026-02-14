@@ -198,10 +198,10 @@
 
         Arrows_Media_Umlauts_Mac {
             bindings = <
-        &switch_to_windows  &switch_to_mac  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &UE_Mac         &trans        &OE_Mac          &trans
-        &AE_Mac             &SS_Mac         &trans        &trans        &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans              &trans          &trans        &trans        &trans          &trans          &trans          &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &trans
-                                            &trans        &mo 10        &trans          &trans          &trans          &trans
+        &switch_to_windows  &switch_to_mac  &switch_to_linux  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &UE_Mac         &trans        &OE_Mac          &trans
+        &AE_Mac             &SS_Mac         &trans            &trans        &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans              &trans          &trans            &trans        &trans          &trans          &trans          &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &trans
+                                            &trans            &mo 10        &trans          &trans          &trans          &trans
             >;
         };
 
