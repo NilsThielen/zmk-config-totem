@@ -43,7 +43,7 @@
             key-positions = <22 23 24>;
         };
 
-        BLRST {
+        Bluetooth_Reset {
             bindings = <&bt BT_CLR>;
             key-positions = <2 3 1 0 6 7 8 9>;
         };
