@@ -1,6 +1,7 @@
 include:
-  - board: xiao_ble
+  - board: seeduino_xiao_ble//zmk
     shield: totem_left
-  - board: xiao_ble
+    artifact-name: totem_left
+  - board: seeduino_xiao_ble//zmk
     shield: totem_right
-# there is no settingsreset (needed) for the XIAO
+    artifact-name: totem_right
